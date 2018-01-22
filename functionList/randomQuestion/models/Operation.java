@@ -1,25 +1,25 @@
 package randomQuestion.models;
 
 public enum Operation {
-    PIUS(1, "+") {
+    PIUS(1, " + ") {
         @Override
         public int cacl(int a, int b) {
             return a + b;
         }
     },
-    MINUS(2, "-") {
+    MINUS(2, " - ") {
         @Override
         public int cacl(int a, int b) {
             return a - b;
         }
     },
-    TIMES(3, "*") {
+    TIMES(3, " * ") {
         @Override
         public int cacl(int a, int b) {
             return a * b;
         }
     },
-    DIVIDE(4, "/") {
+    DIVIDE(4, " / ") {
         @Override
         public int cacl(int a, int b) {
             if (b == 0) {
